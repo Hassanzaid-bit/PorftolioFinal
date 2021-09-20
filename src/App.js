@@ -50,11 +50,10 @@ function App() {
               <Articlesingle></Articlesingle>
           </Route>
 
-          
-      {/* 
           <Route exact path="/contact">
               <Contactpage></Contactpage>
-          </Route> */} */
+          </Route> 
+          
         </Switch>
         <Footer/>
     </div>
