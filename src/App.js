@@ -41,17 +41,17 @@ function App() {
           <Route exact path="/about">
               <Aboutme></Aboutme>
           </Route>
-           {/* 
+         
           <Route exact path="/articles">
               <Articlepage></Articlepage>
           </Route>
 
-          <Route exact path="/article/:id">
+          <Route exact path="/article-single">
               <Articlesingle></Articlesingle>
           </Route>
 
           
-
+      {/* 
           <Route exact path="/contact">
               <Contactpage></Contactpage>
           </Route> */} */
