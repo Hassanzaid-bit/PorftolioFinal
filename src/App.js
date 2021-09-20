@@ -37,6 +37,10 @@ function App() {
           <Route exact path="/workdetails">
               <Detailspecific></Detailspecific>
           </Route>
+
+          <Route exact path="/about">
+              <Aboutme></Aboutme>
+          </Route>
            {/* 
           <Route exact path="/articles">
               <Articlepage></Articlepage>
@@ -46,9 +50,7 @@ function App() {
               <Articlesingle></Articlesingle>
           </Route>
 
-          <Route exact path="/about">
-              <Aboutme></Aboutme>
-          </Route>
+          
 
           <Route exact path="/contact">
               <Contactpage></Contactpage>
