@@ -22,8 +22,37 @@
 }
 #project-details button{
     background: #f0864f;
-    left: 35vw;
+    /* left: 35vw; */
 }
 #project-details button:hover{
     color: #ffffff;
+}
+
+.link-work{
+    color: #cccdcf;
+    transition: color ease 0.3s;
+}
+.link-work::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    height: 25%;
+    background: #32354D;
+    transition: all ease 0.3s;
+}
+.link-work:hover{
+    color: white;
+    text-decoration: none;
+}
+.link-work:hover::after{
+    height: 100%;
+}
+
+@media only screen and(min-width:768px){
+    .link-work:after{
+        width:100%;
+    }
 }

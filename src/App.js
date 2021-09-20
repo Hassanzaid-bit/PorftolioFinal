@@ -30,14 +30,14 @@ function App() {
             <Contact/>
           </Route>
 
-          {<Route exact path="/work">
+          <Route exact path="/work">
               <Workdetails></Workdetails>
           </Route>
-          /* 
+        
           <Route exact path="/workdetails">
               <Detailspecific></Detailspecific>
           </Route>
-
+           {/* 
           <Route exact path="/articles">
               <Articlepage></Articlepage>
           </Route>
