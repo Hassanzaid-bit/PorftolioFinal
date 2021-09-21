@@ -16,7 +16,7 @@ function Articlepage (){
         .then((blogs)=>
         {    
             setArticles(blogs);
-            setLoading(false)
+            setLoading(false);
         })
         .catch(err => console.log(err))
 
@@ -28,14 +28,14 @@ function Articlepage (){
     return(
         <div id="articles-content" className='my-28 mx-auto text-left'>
             <h1 className="text-4xl font-bold mb-16 relative">Articles</h1>
-            {articles.map((article)=>
+            {articles.map((article, key)=>
             {
                 return(
                     <div className="articlepage-card text-xl p-12 max-w-4xl md:max-w-full cursor-pointer my-20">
-                        <h3 className="mb-7 text-3xl font-semibold">{ article.Title }</h3>
-                        <p className="mb-7 text-4xl h-36 overflow-hidden">{ article.Content }</p>
-                        <Link to="/article-single"className="font-bold hover:no-underline text-4xl">Read more <i class="bi bi-arrow-right"></i></Link>
-                    </div>  
+                        <h3 className="mb-7 text-3xl font-semibold" key={article.id} >{ article.Title }</h3>
+                        <p className="mb-7 text-4xl h-36 overflow-hidden" key={article.id}>{ article.Content }</p>
+                        <Link to={`article-single/${ article.id }`} className="font-bold hover:no-underline text-4xl">Read more <i class="bi bi-arrow-right"></i></Link>
+                    </div>   
                 )
             })}
             
@@ -43,52 +43,4 @@ function Articlepage (){
     )
 }
 
-
-
-
-// class Articlepage extends React.Component {
-//     constructor(props){
-//         super(props);
-//         this.state = {
-//             articles: [],
-//         }
-//         this.fetchTask = this.fetchTask.bind(this)
-//     }
- 
-//     componentWillMount(){
-//         this.fetchTask()  
-//     }
-
-//     fetchTask(){
-//         getBlogs()
-//         .then((blogs) => 
-//         { 
-//             this.setState(
-//                 {
-//                     articles : blogs
-//                 }
-//             )
-//             console.log(Articles)
-//         })
-//         .catch((err) => 
-//         {
-//             console.log(err)
-//         })
-//     }
-
-//     render(){
-//         // var articles = this.state.articles
-//         return (
-//             <div id="articles-content" className='my-28 mx-auto text-left'>
-//                 <h1 className="text-4xl font-bold mb-16 relative">Articles</h1>
-//                     <div className="articlepage-card text-xl p-12 max-w-4xl md:max-w-full cursor-pointer my-20">
-//                         <h3 className="mb-7 text-3xl font-semibold">Heading</h3>
-//                         <p className="mb-7 text-4xl h-36 overflow-hidden">Content</p>
-//                         <Link to="/article-single"className="font-bold hover:no-underline text-4xl">Read more <i class="bi bi-arrow-right"></i></Link>
-//                     </div>  
-//              </div>
-//         )
-// }
-// }
- 
 export default Articlepage;

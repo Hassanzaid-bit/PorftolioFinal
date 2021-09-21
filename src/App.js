@@ -46,7 +46,7 @@ function App() {
               <Articlepage></Articlepage>
           </Route>
 
-          <Route exact path="/article-single">
+          <Route exact path="/article-single/:id">
               <Articlesingle></Articlesingle>
           </Route>
 

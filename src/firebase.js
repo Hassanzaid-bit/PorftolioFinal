@@ -1,6 +1,5 @@
 
 import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
 const firebaseConfig = {
@@ -15,13 +14,39 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
 const db = getFirestore(app);
 
-export async function getBlogs(){
-    const blogsCol = collection(db, 'Blogs');
-    const blogsSnapshot = await getDocs(blogsCol);
-    const blogList = blogsSnapshot.docs.map(doc => doc.data());
-    return blogList
+
+export async function getBlogs()
+{
+  const blogsCol = collection(db, 'Blogs');
+  const blogsSnapshot = await getDocs(blogsCol);
+  const blogList = blogsSnapshot.docs.map(doc => doc.data());
+
+  return blogList
 }
 
+export async function singleBlog(id)
+{
+  const blogsCol = collection(db, 'Blogs');
+  const blogsSnapshot = await getDocs(blogsCol);
+
+  var Blog = null;
+  blogsSnapshot.docs.forEach((doc) => 
+    {
+      const blogId = id;
+      if(doc.data().id == blogId )
+      {
+        Blog = doc.data();
+      }
+    })
+    return Blog
+}
+
+const exportedObject = 
+{
+  singleBlog,
+  getBlogs
+}
+
+export default exportedObject;
