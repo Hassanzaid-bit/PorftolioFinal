@@ -33,7 +33,7 @@ function Articlepage (){
                 return(
                     <div className="articlepage-card text-xl p-12 max-w-4xl md:max-w-full cursor-pointer my-20">
                         <h3 className="mb-7 text-3xl font-semibold" key={article.id} >{ article.Title }</h3>
-                        <p className="mb-7 text-4xl h-36 overflow-hidden" key={article.id}>{ article.Content }</p>
+                        <p className="mb-7 text-2xl h-36 overflow-hidden" key={article.id}>{ article.Content }</p>
                         <Link to={`article-single/${ article.id }`} className="font-bold hover:no-underline text-4xl">Read more <i class="bi bi-arrow-right"></i></Link>
                     </div>   
                 )

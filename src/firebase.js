@@ -16,6 +16,8 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+// const storage = firebase.storage()
+
 
 export async function getBlogs()
 {
@@ -46,7 +48,9 @@ export async function singleBlog(id)
 const exportedObject = 
 {
   singleBlog,
-  getBlogs
+  getBlogs,
+  // storage,
+  // firebase
 }
 
 export default exportedObject;

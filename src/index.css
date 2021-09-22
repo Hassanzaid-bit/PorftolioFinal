@@ -69,9 +69,9 @@ code {
 }
 
 .heading-text h1 {
-    font-size: 60px;
+    /* font-size: 60px; */
     color: #ffffff;
-    margin: 5rem 0px;
+    margin: 3rem 0px;
 }
 .heading-text h4{
     font-size: 24px;
