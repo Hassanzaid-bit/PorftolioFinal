@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="footer-links flex  flex-col md:flex-row justify-between mb-16">
                 <div class="contact-card ">
                     <div className="max-w-xs text-left">
-                        <a href="https://github.com/hassanzaid-bit/" target="_blank" className="hover:no-underline">
+                        <a href="https://github.com/hassanzaid-bit/" className="hover:no-underline">
                             <h4 className="text-3xl font-semibold mr-0">GitHub</h4>
                             <h4 className="text-3xl">Code</h4>
                         </a>
@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
                 <div class="contact-card ">
                     <div className="max-w-xs text-left">
-                        <a href="https://www.instagram.com/hassan_zaid__/ " target="_blank" className="hover:no-underline">
+                        <a href="https://www.instagram.com/hassan_zaid__/ " className="hover:no-underline">
                             <h4 className="text-3xl font-semibold mr-0">Instagram</h4> 
                             <h4 className="text-3xl">UI Posts</h4>
                         </a>
@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div class="contact-card">
-                    <a href="https://twitter.com/hassan_zaid__" target="_blank" className="hover:no-underline">
+                    <a href="https://twitter.com/hassan_zaid__" className="hover:no-underline">
                         <div className="max-w-xs text-left">
                             <h4 className="text-3xl font-semibold mr-0">Twitter</h4>
                             <h4 className="text-3xl">Random thoughts</h4>

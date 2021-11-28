@@ -9,9 +9,9 @@ const Work = () => {
             <h2 className="text-4xl font-bold">Featured work</h2>
             <div className="featured-work-card p-8 h-auto w-full my-14 rounded-3xl cursor-pointer flex overflow-hidden">
                 <div className="work-details w-1/2 text-left">
-                    <h2 className="text-2xl font-medium mb-4">ChargedUp</h2>
-                    <p className="platform font-semibold text-2xl mb-1">2020.IOS and ANDROID</p>
-                    <p className="description text-xl mb-8">A comprehensive redesign of IOS and Android experience for a power bank rental startup from London and their audience of over 350k customers</p>
+                    <h2 className="text-2xl font-medium mb-4">TheBossDomain</h2>
+                    <p className="platform font-semibold text-2xl mb-1">Web Application</p>
+                    <p className="description text-xl mb-8"></p>
                     <button type="button" className="btn btn-lg case-study">Case study</button>
                 </div> 
 

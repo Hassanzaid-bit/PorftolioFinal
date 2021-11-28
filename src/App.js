@@ -53,6 +53,11 @@ function App() {
           <Route exact path="/contact">
               <Contactpage></Contactpage>
           </Route> 
+
+          <Route path='/thebossdomain.co.ke' component={() => { 
+              window.location.href = 'https://www.thebossdomain.co.ke'; 
+              return null;
+          }}/>
           
         </Switch>
         <Footer/>

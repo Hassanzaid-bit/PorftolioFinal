@@ -19,7 +19,8 @@ const Articlesingle = () =>{
                 setArticle(data)
                 setLoading(false)
             })
-            .catch((err)=> console.log(err))
+            .catch((err)=> console.log(err));
+         // eslint-disable-next-line
     }, [])
   
     if(loading)
