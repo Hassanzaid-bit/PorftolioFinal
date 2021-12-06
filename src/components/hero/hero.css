@@ -1,6 +1,6 @@
 
 #hero{
-    margin: 7rem 0;
+    margin: 4rem 0;
 }
 
 
@@ -13,7 +13,7 @@
     display: inline-block;
     width: 6rem;
     height: 0.25rem;
-    background-color: #f0864f;
+    background-color: white;
     margin-right: 1rem;
     vertical-align: middle;
 }
@@ -21,7 +21,8 @@
 .role h1{
     font-size: 4rem;
     font-weight: bolder;
-    background: linear-gradient(45deg,#dc7d55 25%,#722b36);
+    background: linear-gradient( 
+        45deg,#fd98d2 25%,#e7b9c0);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -46,12 +47,12 @@
 
 .role-details span{
     text-decoration-line: underline;
-    text-decoration-color: #f0864f;
+    text-decoration-color: #e7b9c0;
     color: rgb(240, 240, 245);
 }
-.role-details a{
-    color: #FDDCB0;
-}
+/* .role-details a{
+    color: #3C386A ;
+} */
 .link{
     color: #cccdcf;
     transition: color ease 0.3s;
@@ -64,7 +65,7 @@
     bottom: 0;
     width: 100%;
     height: 25%;
-    background: #32354D;
+    background: #e7b9c0;
     transition: all ease 0.3s;
 }
 .link:hover{

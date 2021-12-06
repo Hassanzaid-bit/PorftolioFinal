@@ -1,5 +1,5 @@
 .quote{
-    color: #eaf4f7;
+    color: white;
     width: 75vw;
     margin: 0 auto;
 }
@@ -10,14 +10,14 @@
     content: close-quote;
 }
 .name{
-    color: #363a5a;
+    color: #e7b9c0;
 }
 .name::before{
     content: '';
     display: inline-block;
     width: 4rem;
     height: 0.5rem;
-    background: #363a5a;
+    background: #e7b9c0;
     vertical-align: middle;
     margin-right: 1rem;
 }

@@ -1,7 +1,7 @@
 
 .logo{
     color: #363a5a;
-    background: #f0864f;
+    background: #3C386A;
     text-align: center;
     font-weight: 700;
     border-radius: 0.5rem;
@@ -11,11 +11,12 @@
 }
 
 .logo a{ 
-    color: #363a5a;
+    color: #FD98D2;
+    color: white;
 }
 .logo a:hover{
     text-decoration: none;
-    color: #363a5a;
+    /* color: #363a5a; */
 }
 .nav-content {
     display: flex;
@@ -40,11 +41,10 @@
     color: #f0864f;
 }
 .nav-links a{
-    color: #eaa784;
     text-decoration: none;
+    color: white;
 }
 .nav-links a:hover{
-    color: #f0864f;
     text-decoration: none;
 }
 .navlinks li{
