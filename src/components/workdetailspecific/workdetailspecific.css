@@ -1,6 +1,6 @@
 
 #project-details a, .article-heading a{
-    color: #FDDCBA;
+    color: #B2B4CD;
 }
 #project-details a:hover, .article-heading a:hover{
     text-decoration: none;
@@ -21,8 +21,8 @@
    width: 80vw;
 }
 #project-details button{
-    background: #f0864f;
-    /* left: 35vw; */
+    background: #e7b9c0;
+    color: white;
 }
 #project-details button:hover{
     color: #ffffff;
