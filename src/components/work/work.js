@@ -12,7 +12,7 @@ const Work = () => {
                     <h2 className="text-2xl font-medium mb-4">TheBossDomain</h2>
                     <p className="platform font-semibold text-2xl mb-1">Web Application</p>
                     <p className="description text-xl mb-8"></p>
-                    <button type="button" className="btn btn-lg case-study">Case study</button>
+                    <Link to="/workdetails">  <button type="button" className="btn btn-lg case-study">Case study</button> </Link>
                 </div> 
 
                 <div className="work-visual"> 
