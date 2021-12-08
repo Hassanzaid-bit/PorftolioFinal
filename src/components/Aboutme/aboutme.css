@@ -13,8 +13,51 @@
     color: rgb(178, 180, 205);
 } 
 .skillset h4{
-    color: rgb(240, 137, 81);
+    color: #e7b9c0;
 }
 .code {
     color: rgb(240, 240, 245);
+}
+
+.aboutme-wrapper{
+    margin: 4rem 0;
+}
+
+.aboutme{
+    max-width: 34ch;
+    margin-bottom: 1rem;
+
+}
+.skill{
+    font-size: 22px;
+}
+.skill-desc{
+    font-size: 16px;
+}
+
+@media only screen and  ( min-width: 375px){
+    .aboutme{
+        max-width: 50ch;
+    }
+}
+
+@media only screen and  ( min-width: 540px){
+    .aboutme{
+        max-width: 60ch;
+    }
+}
+
+@media only screen and  ( min-width: 768px){
+    .aboutme{
+        max-width: 70ch;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .aboutme {
+        max-width: 90ch;
+        font-size: 18px;
+    }
+    .skill-desc{
+        font-size: 18px;
+    }
 }
