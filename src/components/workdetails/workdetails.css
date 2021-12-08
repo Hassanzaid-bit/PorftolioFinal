@@ -1,11 +1,11 @@
-#featured-work h2{
-    color: #eaf4f7;
-}
+/* #featured-work h2{
+    color: #1F1F1F;
+} */
 .featured-work-card h2, #articles h2{
     color: #eaf4f7;
 }
 .featured-work-card {
-    background: #222435;
+    /* background: #222435; */
     transition: all .5s ease; 
 }
  .featured-work-card:hover {

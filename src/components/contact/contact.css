@@ -6,7 +6,7 @@
     font-size: 2rem;
 }
 .contact-card{
-    background: #41456096;
+    background: #22243580;
     width: 290px;
     height: 105px;
     border-radius: 1rem;
@@ -14,15 +14,14 @@
     cursor: pointer;
 }
 .contact-card:hover{
-    background: #222435;
+    background: #222435cc;
 }
 .contact-link{
     position: relative;
     text-decoration: none;
     display: inline-block;
-    color: #FDDCB0;
+    color: white;
     transition: color ease 0.3s;
-
 }
 
 .contact-link::after {
@@ -33,7 +32,7 @@
     bottom: 0;
     width: 104%;
     height: 25%;
-    background: #32354D;
+    background: #e7b9c0;
     transition: all ease 0.3s;
 }
 .contact-link:hover a{

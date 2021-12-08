@@ -2,9 +2,9 @@
 .heading-text h1 {
     color: #ffffff;  
 }
-.heading-text h4, p{
-    color: rgb(178, 180, 205);
-}
+/* .heading-text h4, p{
+    color: #1F1F1F;
+} */
 
 .heading-image img {
     width: 39vw;

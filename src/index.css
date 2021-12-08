@@ -4,14 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -39,7 +31,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0C0D13;
+  /* background-color: #0C0D13; */
+  background-color: #3C386A;
   font-size: 16px;
 
 }
@@ -87,9 +80,6 @@ code {
 
 
 /****************************************** About me page ******************************************/
-
-.about-me {
-}
 
 @media only screen and (max-width:1023px){
   .article-card{
