@@ -1,40 +1,12 @@
 import './article.css'
 import React from 'react'
-// import { Link } from 'react-router-dom'
-// import axios from 'axios';
 
 
 class Articles extends React.Component {
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         articles : [], 
-    //     }
-    //     this.fetchTask = this.fetchTask.bind(this)
-    // }
 
-    // componentWillMount(){
-    //     this.fetchTask()
-    // }
-
-
-    // fetchTask(){
-    //     console.log('Fetching.....')
-
-    //     axios.get('http://127.0.0.1:8000/api/')
-    //     .then(response => 
-    //         this.setState({
-    //             articles : response.data
-    //         })
-    //     )
-    //     .catch((err) => {
-    //         console.log(err)
-    //     })
-    // }
   
   
     render(){
-        // var articles = this.state.articles
         return( 
         <div>
             <h2 className="text-4xl font-bold text-left article-heading">Articles</h2>

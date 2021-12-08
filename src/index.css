@@ -24,6 +24,8 @@ a{
   text-decoration: none;
 }
 
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -42,8 +44,9 @@ code {
     monospace;
 }
 
-#root {
-  padding: 1rem;
+.App{
+  width: 85%;
+  margin: 0 auto;
 }
 
 
@@ -104,9 +107,6 @@ code {
   }
   #articles h2{
       padding-left: 0;
-  }
-  .article-cards{
-      width: 115%;
   }
 }
 

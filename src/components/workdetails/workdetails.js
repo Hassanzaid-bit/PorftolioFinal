@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 const Workdetails = () => {
     return ( 
         <div>
- <div id="work-description" className="text-left my-24">
+ <div id="work-description" className="text-left">
             <h1 className="text-4xl font-bold mb-12">Work</h1>
-            <p className="text-2xl font-medium mb-8">I’ve done a couple of personal and business projects. </p>
-            <p className="text-2xl font-medium mb-8">The following is a sample of the works I've done so far in my Career</p>
+            <p className="work-intro font-medium ">I’ve done a couple of personal and business projects. </p>
+            <p className="work-intro font-medium ">The following is a sample of the works I've done so far in my Career</p>
         </div>
-
+ 
         <div id="project-examples">
              <div className="featured-work-card p-12 h-auto w-full my-16 rounded-3xl cursor-pointer flex overflow-hidden">
                 <div className="work-details w-1/2 text-left">
